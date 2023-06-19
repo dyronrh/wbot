@@ -27,4 +27,4 @@ def webhook_whatsapp():
     return jsonify({"status": "success"}, 200)
 #INICIAMSO FLASK
 if __name__ == "__main__":
-  app.run(debug=True)
+  app.run(debug=True, port=8080)
